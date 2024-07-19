@@ -1,0 +1,424 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: poppins;
+    color: cyan;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-color: #081b29;
+}
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 20px 10%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1000;
+    background-color: #081b29;
+    /* border-bottom: 1px solid whitesmoke; */
+    box-shadow: 0px 0px 20px cyan;
+}
+.name{
+    text-decoration: none; 
+    font-size: 25px;
+    font-weight: bolder;
+    color: #ededed;
+}
+.letter{
+    color: rgb(39, 200, 200);
+}
+nav a{
+    color: #ededed;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 35px;
+    transition: color 0.5s;
+}
+.navbar a:hover{
+    color: cyan;
+    border-radius: 8px;
+    border-bottom: 0.2px solid cyan;
+    border-top: 0.2px solid cyan;
+}
+.home {
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    padding: 0 10%;
+}
+.description {
+    max-width: 600px;
+}
+#hearts {
+    color: red;
+    font-size: 28px;
+}
+section div h1,section div p,section div p sup{
+    color: white;
+}
+.img{
+    background-image: url(image.jpeg);
+    border: 2px solid cyan;
+    position: absolute;
+    right: 100px;
+    border-radius: 50%;
+    background-size: cover;
+    height: 500px;
+    width: 500px;
+}
+.description h1{
+    font-size: 40px;
+}
+.description h4{
+    font-size: 20px;
+    font-weight: 500;
+}
+.description p{
+    font-size: 20px;
+    word-spacing: 2px;
+}
+section div button{
+    background-color: cyan;
+    color: black;
+    margin-top: 50px;
+    width: 60px;
+    height: 55px;
+    border: none;
+    border-radius: 50%;
+}
+.links{
+    margin-top: 100px;
+    width: 300px;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.links a{
+    text-decoration: none;
+    border: 1px solid cyan;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn{
+    font-size: 30px;
+    color: cyan;
+}
+/* .btn:hover{
+    font-size: 25px;
+    color: rgb(3, 196, 196);
+} */
+.links a:hover{
+    box-shadow: 0px 0px 20px cyan;
+    transition: all 200ms ease;
+}
+/*about section*/
+.about_section{
+    padding: 50px 0 20px 0;
+    height: 100vh;
+}
+.about_head{
+    padding: 40px 10%;
+    font-size: 40px;
+    font-weight: bolder;
+    width: 100%;
+    text-align: center;
+    color: rgb(39, 200, 200);
+}
+.about_head span{
+    color: white;
+}
+.status{
+    width: 100%;
+    font-size: 25px;
+    font-weight: 500;
+    text-align: center;
+}
+.description2{
+    margin: 5% 0;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.img2{
+    background-image: url(image.jpeg);
+    background-size: cover;
+    height: 400px;
+    width: 400px;
+    border-radius: 10%;
+    border: 1px solid cyan;
+}
+.content{
+    height:auto;
+    max-width: 700px;
+    margin-top: 40px;
+    color: #ededed;
+    font-size: 18px;
+}
+.content p{
+    color: #ededed;
+    word-spacing: 2px;
+}
+.description2 span{
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: rgb(39, 200, 200);
+}
+#contact-btn{
+    text-decoration: none;
+    color: cyan;
+
+}
+#contact-btn:hover{
+    text-decoration: underline;
+    text-underline-offset: 5px;
+}
+.links2{
+    width: 80%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+.links2 a{
+    text-decoration: none;
+    border: 1px solid cyan;
+    border-radius: 8px;
+    padding: 15px;
+    color: white;
+    font-weight: 700;
+}
+.links2 a:hover{
+    box-shadow: 0px 0px 10px cyan;
+    background-color: cyan;
+    color: #081b29;
+    cursor: pointer;
+    transition: all 400ms ease;
+}
+/*my skills section*/
+.skills_section{
+    padding: 50px 10% 20px 10%;
+    height: 100vh;
+}
+.skills_head{
+    padding: 40px 10%;
+    font-size: 40px;
+    font-weight: bolder;
+    width: 100%;
+    text-align: center;
+    color: rgb(39, 200, 200);
+}
+.skills_head span{
+    color: white;
+}
+.skills_list{
+    padding: 20px 10%;
+    display: flex;
+    justify-content:space-between;
+    flex-wrap:wrap;
+    gap: 30%;
+    height: 60vh;
+}
+.items{
+    height: 200px;
+    width: 200px;
+    border-radius: 10%;
+}
+#item1{
+    background-image: url(c.png);
+    background-size: cover;
+}
+#item2{
+    background-image: url(python.png);
+    background-size: cover;
+}
+#item3{
+    background-image: url(html.jpg);
+    background-size:cover;
+}
+#item4{
+    background-image: url(css.jpg);
+    background-size: cover;
+}
+.title{
+    text-align: center;
+    font-weight: 700;
+    font-size: 1.4em;
+    color: #ededed;
+    margin-top: 10px;
+}
+.title:hover{
+    color: cyan;
+}
+/* projects-section */
+.projects_section{
+    padding: 50px 10% 20px 10%;
+    height: 100vh;
+}
+.projects_head{
+    padding: 40px 10%;
+    font-size: 40px;
+    font-weight: bolder;
+    width: 100%;
+    text-align: center;
+    color: rgb(39, 200, 200);
+}
+.projects_head span{
+    color: #ededed;
+}
+.project_container{
+    display: flex;
+    justify-content: space-between;
+}
+.project_container a{
+    text-decoration: none;
+}
+
+.card{
+    background-color: #fdf4f4;
+    height: 60vh;
+    width: 30vw;
+    border-radius: 5%;
+    box-shadow: 0 0 10px cyan;
+}
+.card h1{
+    text-align: center;
+    padding-top: 2rem;
+    color: rgb(39, 200, 200);
+    font-weight: 900;
+    font-size: 1.85em;
+}
+.card  p{
+    text-align: center;
+    padding-top: 70%;
+    color: cyan;
+}
+.card:hover{
+    scale: 1.02;
+}
+.project1{
+    background-image: url(uiux.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+.project2{
+    background-image: url(portfolio.jpg);
+    background-size: cover;
+    background-position: center;
+}
+/* contact-section */
+.contact_section{
+    padding: 50px 10% 20px 10%;
+    height: 100vh;
+}
+.contact_head{
+    padding: 40px 10%;
+    font-size: 40px;
+    font-weight: bolder;
+    width: 100%;
+    text-align: center;
+    color: rgb(39, 200, 200);
+}
+.contact_head span{
+    color: #ededed;
+}
+form{
+    width: 700px;
+    height: 700px;
+    text-align: center;
+}
+.formarea{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.inputfield{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.formarea .inputfield input{
+    width: 100%;
+    margin: 10px 5px;
+    height: 50px;
+    border-radius: 10px;
+    background: transparent;
+    border: 1px solid cyan;
+    color: #ededed;
+    padding-left: 25px;
+    outline: none;
+}
+#txt-area{
+    width: 100%;
+    border-radius: 10px;
+    background: transparent;
+    border: 1px solid cyan;
+    color: #ededed;
+    padding: 25px 20px;
+    margin-top: 10px;
+    outline: none;
+    resize: none;
+}
+.formarea input:focus{
+    border-color: #ededed;
+    box-shadow: 0px 0px 10px cyan;
+}
+#txt-area:focus{
+    border-color: #ededed;
+    box-shadow: 0px 0px 10px cyan;
+}
+#submit-btn{
+    font-weight: 500;
+    font-size: 17px;
+    border-radius: 10px;
+    width: 100px;
+    height: 40px;
+    background-color: #081b29;
+    border: 1px solid cyan;
+    color: #ededed;
+}
+#submit-btn:hover{
+    box-shadow: 0px 0px 10px cyan;
+    background-color: cyan;
+    color: #081b29;
+    cursor: pointer;
+    transition: all 400ms ease;
+}
+/* footer-section */
+.footer_section{
+    padding: 3% 5% 2% 5%;
+    box-shadow: 0px 0px 20px cyan;
+    background-color: #020f19;
+}
+.footer_bar{
+    display: flex;
+    justify-content: space-between;
+}
+#copy{
+    font-size: 1em;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+.links3{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+.links3 a{
+    height: 60px;
+    width: 60px;
+}
+
+
