@@ -4,8 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
-    <link rel="stylesheet" href="port.css">
+    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
 </head>
 <body>
     <header class="header">
@@ -21,8 +22,11 @@
     <section class="home" id="homepage">
         <div class="description">
             <h1>Hi, I'm Kaleem Afroz.</h1>
-            <h4>B.Tech CSE AIML - 2<sup>nd</sup> Year</h4><br>
-        <p>I have learnt C and DSA in my 1<sup>st</sup> Year. Now, I am learning Web Development. Created this beautiful portfolio with <span id="hearts">&hearts;</span></p>
+            <h4>B.Tech CSE AIML - 3<sup>rd</sup> Year</h4><br>
+        <p>
+          Passionate Web Developer and DSA enthusiast with a strong foundation in C++ and problem-solving.<br>
+          Currently exploring full-stack development with React.js, Express.js, Node.js & MongoDB.
+        </p>
             <div class="links">
                 <a href="https://www.linkedin.com/in/kaleem-afroz-shaik" target="_blank"><i class="fa-brands fa-linkedin-in btn"></i></a>
                 <a href="https://github.com/KaleemAfrozShaik" target="_blank"><i class="fa-brands fa-github btn"></i></a>
@@ -32,48 +36,88 @@
         <div class="img"></div>
     </section>
     <section class="about_section" id="aboutpage">
-        <header class="about_head">About<span> Me</span></header>
-        <div class="status">B.Tech CSE AIML - Year 2</div>
-        <div class="description2">
-            <div class="img2"></div>
-            <div class="content"><p>Hello ! I'm Afroz , currently a student at SRM-AP University studying Computer Science and Engineering with a focus on Artificial Intelligence and Machine Learning (CSE AIML). I have a strong passion for Data Structures and Algorithms (DSA) and Web Development, and I'm eager to learn and grow in these fields.<br><br>I am excited about the future and the opportunities that lie ahead. Feel free to explore my portfolio to see more about my work and experiences. If you would like to connect, please <a href="#contactpage" id="contact-btn">Click Here</a> .<br><br>
-                <span>Looking forward to connecting!</span> </p>
-            <div class="links2">
-                <a href="#projectspage">Projects</a>
-                <a href="#" target="_blank">Resume</a>
-            </div>
-            </div>
+      <header class="about_head">About<span> Me</span></header>
+      <div class="status">B.Tech CSE AIML - 3<sup>rd</sup> Year</div>
+      <div class="description2">
+        <div class="img2"></div>
+        <div class="content">
+          <p>
+            I'm Kaleem Afroz, a 3<sup>rd</sup> year Computer Science (AIML) student at SRM University-AP with a passion for building meaningful web experiences and solving problems through code.
+            I enjoy working on Full Stack Development and enhancing my DSA skills regularly.
+            <br><br>
+            I'm excited about growing as a developer, collaborating on impactful projects, and continuously learning. Explore my portfolio or 
+            <a href="https://www.linkedin.com/in/kaleem-afroz-shaik" 
+            target="_blank" id="contact-btn">connect with me</a> to know more.
+            <br><br>
+            <span>Let’s build something great!</span>
+          </p>
+          <div class="links2">
+            <a href="#projectspage">Projects</a>
+            <a href="https://srmap-my.sharepoint.com/:b:/g/personal/kaleemafroz_shaik_srmap_onmicrosoft_com/EX_14pKo5OtHnL_txgg01mABTXSA91zVp9jaKLYKWOlvxA?e=9yGG5c" target="_blank" rel="noopener noreferrer">Resume</a>
+          </div>
         </div>
-        </div>
+      </div>
     </section>
     <section class="skills_section" id="skillspage">
-        <header class="skills_head">My <span>Skills</span></header>
-        <div class="skills_list">
-            <div class="items">
-                <div  class="items" id="item1"></div>
-                <div class="title">C</div>
-            </div>
-            <div class="items">
-                <div class="items" id="item2"></div>
-                <div class="title">Python</div>
-            </div>
-            <div class="items">
-                <div class="items" id="item3"></div>
-                <div class="title">HTML</div>
-            </div>
-            <div class="items">
-                <div class="items" id="item4"></div>
-                <div class="title">CSS</div>
-            </div>
+      <header class="skills_head">My <span>Skills</span></header>
+      <div class="skills_list">
+        <div class="items"><i class="devicon-c-plain colored icon"></i><div class="title">C</div></div>
+        <div class="items"><i class="devicon-cplusplus-plain  icon"></i><div class="title">C++</div></div>
+        <div class="items"><i class="devicon-python-plain colored icon"></i><div class="title">Python</div></div>
+        <div class="items"><i class="devicon-html5-plain colored icon"></i><div class="title">HTML</div></div>
+        <div class="items"><i class="devicon-css3-plain colored icon"></i><div class="title">CSS</div></div>
+        <div class="items"><i class="devicon-javascript-plain colored icon"></i><div class="title">JavaScript</div></div>
+        <div class="items"><i class="devicon-github-original  icon"></i>
+        <div class="title">GitHub</div>
         </div>
+        <div class="items"><i class="devicon-tailwindcss-plain colored icon"></i><div class="title">Tailwind</div></div>
+        <div class="items"><i class="devicon-mongodb-plain colored icon"></i><div class="title">MongoDB</div></div>
+        <div class="items"><i class="devicon-express-original colored icon"></i><div class="title">Express.js</div></div>
+        <div class="items"><i class="devicon-react-original  icon"></i>
+        <div class="title">React.js</div>
+        </div>
+        <div class="items"><i class="devicon-nodejs-plain colored icon"></i><div class="title">Node.js</div></div>
+      </div>
     </section>
-    <section class="projects_section" id="projectspage">
+      <section class="projects_section" id="projectspage">
         <header class="projects_head">My <span>Projects</span></header>
-        <div class="project_container">
-            <a href="https://www.figma.com/proto/uTZfdio73CNLdLBYP8na2i/APSSDC?page-id=15%3A2&type=design&node-id=16-3&viewport=437%2C82%2C0.37&t=Txbh1sppy3ONKxl1-1&scaling=min-zoom "target="_blank"><div class="project1 card"><h1>Project 1</h1><p>Click to View</p></div></a>
-            <a href="#"><div class="project2 card"><h1>Project 2</h1><p>Click to View</p></div></a>
-        </div>
-    </section>
+        <div class="slider_wrapper">
+          <button class="slide-btn left" onclick="slideLeft()">
+            <i class="fa-solid fa-chevron-left"></i>
+          </button>
+          <div class="slider_container" id="slider">
+      <div class="slider_track">
+  <div class="project_wrapper">
+    <a href="https://quick-kart-yybb.vercel.app" target="_blank">
+      <div class="card" id="quick_kart"></div>
+    </a>
+    <h3 class="project_title">QuickKart</h3>
+  </div>
+  <div class="project_wrapper">
+    <a href="https://www.figma.com/proto/uTZfdio73CNLdLBYP8na2i/APSSDC?node-id=16-3&t=Zo0mkMSUmjTpz4qR-0&scaling=min-zoom&content-scaling=fixed&page-id=15%3A2" target="_blank">
+      <div class="card" id="apssdc_uiux"></div>
+    </a>
+    <h3 class="project_title">APSSDC UI/UX</h3>
+  </div>
+  <div class="project_wrapper">
+    <a href="#">
+      <div class="card" id="pathfinder"></div>
+    </a>
+    <h3 class="project_title">PathFinder</h3>
+  </div>
+  <div class="project_wrapper">
+    <a href="#">
+      <div class="card" id="eco_coin"></div>
+    </a>
+    <h3 class="project_title">EcoCoin</h3>
+  </div>
+</div>
+    </div>
+    <button class="slide-btn right" onclick="slideRight()">
+      <i class="fa-solid fa-chevron-right"></i>
+    </button>
+  </div>
+</section>
     <section class="contact_section" id="contactpage">
         <header class="contact_head">Contact <span>Me</span></header>
         <div class="formarea">
@@ -108,5 +152,6 @@
             </div>
         </div>
     </footer>
+    <script src="script.js"></script>
 </body>
 </html>
