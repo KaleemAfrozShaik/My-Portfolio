@@ -1,0 +1,18 @@
+
+const slider = document.querySelector(".slider_track");
+
+let scrollPosition = 0;
+const cardWidth = slider.children[0].offsetWidth + 30; 
+
+function slideLeft() {
+  scrollPosition -= cardWidth * 2;
+  if (scrollPosition < 0) scrollPosition = 0;
+  slider.style.transform = `translateX(-${scrollPosition}px)`;
+}
+
+function slideRight() {
+  const maxScroll = cardWidth * (slider.children.length - 2);
+  scrollPosition += cardWidth * 2;
+  if (scrollPosition > maxScroll) scrollPosition = maxScroll;
+  slider.style.transform = `translateX(-${scrollPosition}px)`;
+}
